@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <title>Piano</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    <div class="contenedor">
+    <header class="header-sitio">
+            <h1>PIANO </h1>
+        </header>
+    <div class='botones'>
+        <button  class="button-color" data-note='DO' data-key="1">DO <br>1</button>
+        <button data-note='RE' data-key="2">RE <br> 2</button>
+        <button data-note='MI' data-key="3">MI <br> 3</button>
+        <button data-note='FA' data-key="4">FA<br> 4</button>
+        <button data-note='SOL' data-key="5">SOL <br> 5</button>
+        <button data-note='LA' data-key="6">LA <br> 6</button>
+        <button data-note='SI' data-key="7">SI <br> 7</button>
+       
+    </div>
+    <audio src="/resources/notas/DO.wav" id='NotaDO'></audio>
+    <audio src="/resources/notas/RE.wav" id='NotaRE'></audio>
+    <audio src="/resources/notas/MI.wav" id='NotaMI'></audio>
+    <audio src="/resources/notas/FA.wav" id='NotaFA'></audio>
+    <audio src="/resources/notas/SOL.wav" id='NotaSOL'></audio>
+    <audio src="/resources/notas/LA.wav" id='NotaLA'></audio>
+    <audio src="/resources/notas/SI.wav" id='NotaSI'></audio>
+
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
